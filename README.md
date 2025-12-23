@@ -126,15 +126,15 @@ Download the pipeline from GitHub:
 ```bash
 git clone https://github.com/thiago22yow/nf-virsubtype-metagenome.git
 cd nf-virsubtype-metagenome
-
+```
 ### 2. Install Nextflow
 
 If you do not have Nextflow installed, run:
-
+```
 curl -s https://get.nextflow.io | bash
 chmod +x nextflow
 mv nextflow ~/.local/bin/
-
+```
 ### 3. Install Conda
 
 The pipeline relies on Conda environments for reproducibility.
@@ -142,10 +142,10 @@ The pipeline relies on Conda environments for reproducibility.
 We recommend Miniconda, Mambaforge, or Micromamba.
 
 Example (Miniconda):
-
+```
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
-
+```
 ---
 ## Running the pipeline
 
