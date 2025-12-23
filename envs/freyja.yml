@@ -1,0 +1,13 @@
+name: freyja-nf
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - freyja
+  - minimap2
+  - samtools
+  - ivar
+  - pandas
+

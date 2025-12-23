@@ -1,0 +1,44 @@
+# ==============================
+# Nextflow
+# ==============================
+work/
+.nextflow/
+.nextflow.log
+.nextflow.cache
+trace.txt
+timeline.html
+report.html
+dag.html
+
+# ==============================
+# Pipeline outputs
+# ==============================
+results/
+multiqc/
+qc/
+
+# ==============================
+# Conda / environments
+# ==============================
+conda/
+.env/
+.envs/
+*.conda
+*.mamba
+
+# ==============================
+# Logs & temp files
+# ==============================
+*.log
+*.tmp
+*.swp
+*.bak
+
+# ==============================
+# OS / editor files
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

@@ -1,0 +1,2 @@
+sample_id,fastq_1,fastq_2
+WW_SRR36342031,data/test/SRR36342031_1.fastq.gz,data/test/SRR36342031_2.fastq.gz
