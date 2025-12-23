@@ -107,7 +107,7 @@ data/references/sc2/NC_045512_Hu-1.fasta
 
 ---
 
-## 🧾 Input samplesheet
+## Input samplesheet
 
 Example `samplesheet.csv`:
 
@@ -117,7 +117,36 @@ sample_1,data/test/sample_1.fastq.gz,data/test/sample_2.fastq.gz
 ```
 
 ---
+## Installation
 
+### 1. Clone the repository
+
+Download the pipeline from GitHub:
+
+```bash
+git clone https://github.com/thiago22yow/nf-virsubtype-metagenome.git
+cd nf-virsubtype-metagenome
+
+### 2. Install Nextflow
+
+If you do not have Nextflow installed, run:
+
+curl -s https://get.nextflow.io | bash
+chmod +x nextflow
+mv nextflow ~/.local/bin/
+
+### 3. Install Conda
+
+The pipeline relies on Conda environments for reproducibility.
+
+We recommend Miniconda, Mambaforge, or Micromamba.
+
+Example (Miniconda):
+
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+
+---
 ## Running the pipeline
 
 Basic execution:
